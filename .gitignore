@@ -1,0 +1,32 @@
+# Xcode build artifacts
+build/
+DerivedData/
+
+# Xcode personal settings (contains username, layout, open files, etc.)
+xcuserdata/
+
+# Xcode Workspace Info
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+
+# Swift Package Manager
+.build/
+
+# CocoaPods (if used)
+Pods/
+
+# Carthage (if used)
+Carthage/Build/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Thumbnails and files that might be created by other programs
+Thumbs.db
+ehthumbs.db
+Desktop.ini
