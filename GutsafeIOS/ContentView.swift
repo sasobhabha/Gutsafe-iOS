@@ -35,11 +35,6 @@ struct ContentView: View {
                 .tabItem {
                     Label("About", systemImage: "info.circle")
                 }
-            
-            SettingsView()
-                .tabItem {
-                    Label("Settings", systemImage: "gearshape")
-                }
         }
         .environmentObject(apiClient)
         .preferredColorScheme(.dark)
